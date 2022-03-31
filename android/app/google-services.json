@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "657876709991",
+    "project_id": "rolezou-1be5b",
+    "storage_bucket": "rolezou-1be5b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657876709991:android:5b6b4be5c43ec861fd1ac2",
+        "android_client_info": {
+          "package_name": "com.rolezou"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "657876709991-b0k6t5sadr6q7l8271j2k52es52rbeqg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8B-XbFlAss3BgaWpDaHlyWutc4PIG_g8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "657876709991-b0k6t5sadr6q7l8271j2k52es52rbeqg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

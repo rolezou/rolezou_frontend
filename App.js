@@ -1,21 +1,19 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { useEffect } from "react";
+import { View } from "react-native";
+import { COLORS } from "./src/shared/colors";
+import Home from "./src/pages/Home";
+import UserService from "./src/services/UserService";
 
 export default function App() {
+  useEffect(async () => {
+    await UserService.setLoggedUser({
+      id: "UuzMBWlzAyWpChu6mbWN",
+    });
+  }, []);
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+    <View style={{ height: "100%" }}>
+      <Home />
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
